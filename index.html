@@ -10,6 +10,8 @@
             <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+            <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
             
             <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
             <!-- Materialize Compiled and minified JavaScript -->
@@ -42,7 +44,7 @@
                   <section id="headline" class="container white-text valign-wrapper" data-aos="fade-up" style="min-height: 80vh;">
                        <div class="row">
                              <div class="col s12 m12 l12 right image-container">
-                                   <img src="assets/52387.png" class="responsive-img computer-image"/> 
+                                   <img src="assets/52387.png" class="responsive-img computer-image" alt="computer"/> 
                              </div>            
                               <div class="col s12 m12 l12">
                                     <p><h3>Hi! I'm Tringa | Web develper</h3></p>
@@ -68,7 +70,7 @@
                                     <div class="col s12">
                                           <div class="center-align">
                                                 <!-- <i class="fas fa-id-card medium "></i> -->
-                                                <img src="assets/myAvatar.png" class="circle responsive-img avatar-image" />
+                                                <img src="assets/myAvatar.png" class="circle responsive-img avatar-image"/>
                                                 <div class="title">Who am I</div>
                                           </div>
                                     </div>
@@ -77,10 +79,13 @@
                                     <div class="col s12 center-align">
                                           <blockquote>
                                                 I am a web developer and an asipring web designer. My passion is to use my ability to utilize various tools and technologies to create cool applications that offer the best user experience.
-                                                <br/>
-                                                Also, I hold a Bachelor's degree in Computer Science and a Master's degree in Software Engineering specialised in  
-
+                                          </blockquote>
+                                          <blockquote>
                                                 
+                                                Also, I hold a Bachelor's degree in Computer Science and a Master's degree in Software Engineering specialised in Web and Mobile applications, from the University of Sheffield, UK. 
+                                          </blockquote>
+                                          <blockquote>
+                                                Now I work as a super happy full-time freelance mobile app developer in a major German company based in Stuttart. I spent my free time mainly reading tech articles, keeping up with new technologies, going to the gym (well, sometimes), planning trips and traveling. As of a recently, I am slowly starting my own tech blog with lots of effort and joy.
                                           </blockquote>      
                                     </div>
                               </div>
@@ -88,9 +93,15 @@
                   </section>
                   
                   <section id="skills" class="center-align"  data-aos="fade-up">
-                        <div class="row" style="padding-top:150px">
-                              <div class="title"> What I can do.</div>
-                              <div></div>
+                        <div class="container">
+                              <div class="row" style="padding-top:150px">
+                                    <div class="title"> What I do.</div>
+                                    <div class="col s12 m12 l12">
+                                          <blockquote>
+                                                It is my passion to build useful and innovative applications using the latest technologies, tools and best practices suggested by the tech community. 
+                                          </blockquote>
+                                    </div>
+                              </div>
                         </div>
                         <div class="row padding-bottom-50" >
                               <div class="col s12 m6 l6 padding-top-10">
@@ -100,7 +111,6 @@
                                     <i class="skills-icon fab fa-css3-alt medium"></i>
                                     <i class="skills-icon fab fa-js medium"></i>
                                     <i class="skills-icon fab fa-angular medium"></i>
-                                    <i class="skills-icon fab fa-bootstrap medium"></i>
                                     <i class="skills-icon fab fa-react medium"></i>
                                     <i class="skills-icon fab fa-node-js medium"></i>
                               </div>
@@ -108,6 +118,9 @@
                                     <i class="fas fa-tools medium text-color-secondary-bright"></i>
                                     <div class="title ">Tools</div>
                                     <i class="skills-icon fab fa-github medium"></i>
+                                    <img src="assets/materializecss-458335.png" class="responsive-img" style="width: 5rem" alt="css tool for web development"/>
+                                    <img src="assets/netlify.png" class="responsive-img" style="width: 5rem" alt="web development tool, netlify"/>
+                                    <img src="assets/illustrator.png" class="responsive-img" style="width: 4rem" alt="web design tool, adobe illustrator"/>
                               </div>
                         </div>
                   </section>
@@ -182,18 +195,15 @@
                 </footer>
 
             <!-- Javascript imports -->
-            <script src="js/index.js"></script>
             <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
             crossorigin="anonymous"></script>
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src="js/index.js"></script>
             <script>
-                  $(document).ready(function(){
-                        $('.sidenav').sidenav();
-                  });
-                  AOS.init();
+                 
             </script>
       </body>
 </html>
