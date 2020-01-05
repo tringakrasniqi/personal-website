@@ -1,0 +1,115 @@
+:root {
+      --priamry-color: #2A1B3D;
+      --primary-light-color: #7769ac;
+      --primary-dark-color: #44318d;
+      --secondary-color: #d83f97;
+      --secondary-bright-color:#59C3C3;
+}
+
+.text-color-primary { color: var(--priamry-color); }
+.text-color-primary-light { color: var(--primary-light-color) }
+.text-color-primary-dark { color: var(--primary-dark-color) }
+.text-color-secondary { color: var(--secondary-color) }
+.text-color-secondary-bright { color: var(--secondary-bright-color) }
+
+.padding-left-15 { padding-left: 15px !important; }
+.padding-100 { padding: 100px !important; }
+.padding-top-10 { padding-top: 10px !important; }
+.padding-top-150 { padding-top:150px !important; }
+.padding-bottom-50 { padding-bottom: 50px !important; }
+.padding-top-50 { padding-top: 50px !important; }
+
+body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      background-color: var(--priamry-color);
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      overflow-x: hidden;
+}
+
+main {
+      flex: 1 0 auto;
+}
+
+nav {
+      background-color: var(--priamry-color);
+}
+
+
+.sidenav {
+      background-color: var(--priamry-color);
+      
+}
+.sidenav li>a {
+      color: #ffffff;
+}
+
+.sidenav-overlay {
+      z-index: 990 !important;
+}
+
+blockquote {
+      border-left-color: var(--secondary-color);
+}
+
+.diagonal {
+      height: 2px;
+      transform: skewY(-10deg);
+      background-color: var(--primary-dark-color);
+}
+
+footer {
+      background-color: var(--primary-light-color) !important;
+}
+
+.btn {
+      background-color: var(--secondary-bright-color);
+}
+
+#about_me .container {
+      margin-top:100px;
+      margin-bottom: 100px;
+}
+
+#about_me:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 130%;
+      top: 0;
+      -webkit-transform: skewY(-10deg);
+      transform: skewY(-10deg);
+      background-color: var(--primary-light-color);
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.computer-image {
+      position: absolute;
+      left: 70%;
+      width: 100vh;
+}
+
+.image-container {
+      opacity: 0.5;
+}
+
+.skills-icon {
+      padding: 10px;
+}
+
+.avatar-image {
+      width: 100px;
+      height: 100px;
+}
+
+.connect-icon:hover {
+      opacity: 0.5;
+}
+
+.title {
+      font-size: 2.5em;
+}
