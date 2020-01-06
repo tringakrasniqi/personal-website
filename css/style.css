@@ -60,8 +60,14 @@ blockquote {
       background-color: var(--primary-dark-color);
 }
 
+.modal-footer,
 footer {
       background-color: var(--primary-light-color) !important;
+}
+
+#about_site_modal {
+      background-color: var(--priamry-color);
+      color: #ffffff;
 }
 
 .btn {
