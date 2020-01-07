@@ -26,7 +26,8 @@ body {
       background-color: var(--priamry-color);
       font-family: 'Montserrat', sans-serif;
       color: #ffffff;
-      overflow-x: hidden;
+      overflow: hidden;
+      overflow-y: auto;
 }
 
 main {
