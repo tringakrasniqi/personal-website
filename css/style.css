@@ -124,9 +124,7 @@ and (max-device-width : 1024px)  {
 
 @supports (-webkit-overflow-scrolling: touch) {
       .computer-image {
-            width: 70vh;
-            left: 0;
-            top: 50%;
+           display: none;
       }
 }
     
