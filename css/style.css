@@ -126,6 +126,10 @@ and (max-device-width : 1024px)  {
       .computer-image {
            display: none;
       }
+
+      .paper-plane {
+            width: 300px !important;
+      }
 }
     
 
