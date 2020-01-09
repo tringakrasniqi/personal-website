@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+      #about_me:before {
+            height: 110%;
+      }
+
+      #skills .container .row {
+            padding-top: 50px !important;
+      }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+      .paper-plane {
+            width: 350px !important;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: landscape) { 
+      .computer-image {
+            padding-top: 10px;
+      }
+
+      .paper-plane {
+            width: 400px !important;
+      }
+}
+
+@media only screen 
+   and (min-device-width: 990px) {
+      .paper-plane {
+            width: 300px !important;
+      }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+      .computer-image {
+           display: none;
+      }
+
+      .paper-plane {
+            width: 300px !important;
+      }
+}
