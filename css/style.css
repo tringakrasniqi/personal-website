@@ -1,6 +1,7 @@
 :root {
       --background-color: #ffffff;
       --primary-light-color: #c0e0de;
+      --primary-dark-color: #77bbb7;
       --secondary-color: #cde6e5;
       --secondary-light-color:#d8f8ef;
       --dark-color: #333333;
@@ -42,6 +43,12 @@ footer {
       background-color: var(--primary-light-color) !important;
 }
 
+.name-logo {
+      font-weight: bolder;
+      font-size: 1em;
+      color: var(--primary-dark-color)
+}
+
 #about_site_modal {
       background-color: var(--priamry-light-color);
       color: #ffffff;
@@ -50,20 +57,6 @@ footer {
 .btn {
       background-color: var(--secondary-light-color);
 }
-
-#about_me .container {
-      margin-top:100px;
-      margin-bottom: 100px;
-}
-
-#about_me:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      width: 100%;
-      height: 130%;
-      top: 0;
-}  
 
 .computer-image {
       position: absolute;
@@ -86,6 +79,7 @@ footer {
 
 .connect-icon:hover {
       opacity: 0.5;
+      transform: scale(0.97);
 }
 
 .title {
@@ -103,15 +97,33 @@ footer {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between;
-      align-content: space-between;
+      justify-content: flex-start;
+      align-content: center;
+}
+
+.card-container {
+      width: 250px;
+      padding: 10px;
+      margin: 10px;
 }
 
 .card-image {
       transition: all 0.25s ease;
+      border-radius: 5px;
 }
 
 .card-image:hover {
       cursor: pointer;
-      transform: scale(0.9);
+      transform: scale(0.97);
 }
+
+.cover-image {
+      border-radius: 5px;
+}
+
+.card-title {
+      padding: 10px 0px;
+      font-weight: bold;
+      font-size: 1.5em;
+}
+
