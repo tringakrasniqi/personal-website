@@ -8,6 +8,7 @@
 }
 
 .text-color-primary-light { color: var(--primary-light-color) }
+.text-color-primary-dark { color: var(--primary-dark-color) }
 .text-color-secondary { color: var(--secondary-color) }
 .text-color-secondary-bright { color: var(--secondary-light-color) }
 
@@ -18,6 +19,7 @@
 .padding-bottom-50 { padding-bottom: 50px !important; }
 .padding-top-50 { padding-top: 50px !important; }
 .padding-top-20 { padding-top: 20px !important; }
+.uppercase { text-transform: uppercase; }
 
 body {
       display: flex;
@@ -35,7 +37,7 @@ main {
 }
 
 blockquote {
-      border-left-color: var(--secondary-color);
+      border-left-color: var(--secondary-light-color);
 }
 
 .modal-footer,
@@ -72,11 +74,6 @@ footer {
       padding: 10px;
 }
 
-.avatar-image {
-      width: 200px;
-      height: 200px;
-}
-
 .connect-icon:hover {
       opacity: 0.5;
       transform: scale(0.97);
@@ -91,6 +88,11 @@ footer {
 .main-title {
       font-size: 3em;
       font-weight: bold;
+}
+
+.page-footer .container .title {
+      padding: 0px;
+      margin: 5px 0; 
 }
 
 .cards-container {
@@ -127,3 +129,61 @@ footer {
       font-size: 1.5em;
 }
 
+.ig-images-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: center;
+}
+
+.ig-image {
+      width: 150px;
+      height: 150px;
+      background-size: cover;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 5px;
+}
+
+.ig-image:hover {
+      transform: scale(0.99);
+      cursor: pointer;
+}
+
+.ig-image.one {
+      background-image: url("../assets/desk-1.jpg");
+}
+
+.ig-image.two {
+      background-image: url("../assets/selfie-purple.jpg");
+}
+
+.ig-image.three {
+      background-image: url('../assets/laptop.jpg')
+}
+
+.ig-image.four {
+      width: 100px;
+      background-image: url('../assets/selfie-focus.jpg')
+}
+
+.ig-image.five {
+      max-height: 300px; 
+      width: 300px;
+      background-image: url('../assets/dream-big.jpg');
+}
+
+.footer-copyright {
+      text-align: center;
+}
+
+.link{
+      text-decoration: underline;
+      display: block;
+      font-size: 1.2em;
+}
+
+button {
+      border: none;
+}
