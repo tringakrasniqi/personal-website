@@ -95,40 +95,6 @@ footer {
       margin: 5px 0; 
 }
 
-.cards-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-content: center;
-}
-
-.card-container {
-      width: 250px;
-      padding: 10px;
-      margin: 10px;
-}
-
-.card-image {
-      transition: all 0.25s ease;
-      border-radius: 5px;
-}
-
-.card-image:hover {
-      cursor: pointer;
-      transform: scale(0.97);
-}
-
-.cover-image {
-      border-radius: 5px;
-}
-
-.card-title {
-      padding: 10px 0px;
-      font-weight: bold;
-      font-size: 1.5em;
-}
-
 .ig-images-container{
       display: flex;
       flex-direction: row;
